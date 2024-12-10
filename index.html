@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A busca por Krypto</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Hoje, eu estava passeando pelo parque junto de Krypto, o meu cachorro, até que vi alguns pombos atacando um garoto segurando um saco de pão, então decidi ajudar, mas quando eu voltei vi que Krypto havia sumido, entãio decidi ir procurá-lo</p>
+            <button class="btn-proximo" data-proximo="1">Biblioteca</button>
+            <button class="btn-proximo" data-proximo="2">Praça</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua busca na biblioteca, perguntando se alguém viu o cachorro</p>
+            <button class="btn-proximo" data-proximo="3">Perguntar para o segurança na entrada</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>chegando na praça, você começa a andar por ela</p>
+            <button class="btn-proximo" data-proximo="5">Gritar pelo nome do cachorro</button>
+            <button class="btn-proximo" data-proximo="6">olhar no mesmo lugar onde você deixou Krypto</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O segurança diz que viu o seu cachorro a pouco tempo indo em direção a delegacia</p>
+            <button class="btn-proximo" data-proximo="7">Seguir em direção a delegacia</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide desistir da sua busca, afinal você acha que Krypto sabe o caminho de volta para casa né...</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você grita pelo nome do seu cachorro, e um garoto aparece e diz que viu um cachorro indo para a delegacia</p>
+            <button class="btn-proximo" data-proximo="7">Ir para a delegacia</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você volta para o lugar de onde você perdeu o seu cachorro, mas ele não está mais ali</p>
+            <button class="btn-proximo" data-proximo="8">Procurar pelo cachorro na praça</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na delegacia, você fala com o policial na mesa de atendimento sobre o seu cachorro, e ele diz que apareceram 2 cachorros iguais e te chama pra ir ver eles</p>
+            <button class="btn-proximo" data-proximo="9">Ir ver o primeiro cachorro</button>
+            <button class="btn-proximo" data-proximo="10">Ir ver o segundo cachorro</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>O mesmo garoto de mais cedo aparece e diz que viu seu cachorro indo em direção a delegacia</p>
+            <button class="btn-proximo" data-proximo="7">ir para a delegacia</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você chega onde o cachorro está, ele parece estar dormindo profundamente</p>
+            <button class="btn-proximo" data-proximo="11">Acordar ele</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você vê o segundo cachorro e ele está dormindo</p>
+            <button class="btn-proximo" data-proximo="12">acordar ele</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Parece que esse não é o Krypto</p>
+            <button class="btn-proximo" data-proximo="11">Ver o outro cachorro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
